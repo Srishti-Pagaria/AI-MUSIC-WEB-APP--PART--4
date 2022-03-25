@@ -1,20 +1,32 @@
 .heading{
-    font-size: 23px;
     width: 100%;
-    margin: 0px;
+    text-align: left;
 }
-.note{
-    font-size: 15px;
-    color: black;
+.heading h3{
+    display: inline;
 }
-.song_name{
-    margin: 20px;
-    width: 150px;
-    font-size: 25px;
+.heading button{
+    float: right;
+    border: 1px solid white;
+}
+#start, #restart{
+    font-size: 22px;
+}
+#status, ol{
+    background-color: white;
+}
+li{
+    float: left;
+}
+.modal-dialog{
+    width: 90%;
+}
+.instruction_image{
+    display: inline-block;
+    width: 45%;
 }
 canvas{
-    margin-top: 100px;
-    border: 5px solid white;
+    border-color: 5px solid white;
+    box-shadow: 5px 5px 5px white;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px aqua;
 }
